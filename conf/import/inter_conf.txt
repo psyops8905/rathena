@@ -1,0 +1,45 @@
+// MySQL Login server
+login_server_ip: 127.0.0.1
+login_server_port: 3306
+login_server_id: admin
+login_server_pw: Window123
+login_server_db: ra_main
+login_codepage:
+login_case_sensitive: no
+
+ipban_db_ip: 127.0.0.1
+ipban_db_port: 3306
+ipban_db_id: admin
+ipban_db_pw: Window123
+ipban_db_db: ra_main
+ipban_codepage:
+
+// MySQL Character server
+char_server_ip: 127.0.0.1
+char_server_port: 3306
+char_server_id: admin
+char_server_pw: Window123
+char_server_db: ra_main
+
+// MySQL Map Server
+map_server_ip: 127.0.0.1
+map_server_port: 3306
+map_server_id: admin
+map_server_pw: Window123
+map_server_db: ra_main
+
+// MySQL Web Server
+web_server_ip: 127.0.0.1
+web_server_port: 3306
+web_server_id: admin
+web_server_pw: Window123
+web_server_db: ra_web
+
+// MySQL Log Database
+log_db_ip: 127.0.0.1
+log_db_port: 3306
+log_db_id: admin
+log_db_pw: Window123
+log_db_db: ra_logs
+log_codepage:
+log_login_db: loginlog
