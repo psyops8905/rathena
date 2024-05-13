@@ -62,7 +62,7 @@ Thumbs.db
 /3rdparty/httplib/obj
 
 # /db/
-#/db/import
+/db/import/map_cache.dat
 
 # /conf/
 #/conf/import
