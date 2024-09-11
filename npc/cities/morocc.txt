@@ -46,120 +46,120 @@ OnTouch_:
 	close;
 }
 
-morocc,202,244,0	script	Volunteer - Morocc#01	745,{
-	mes "[Morocc Volunteer]";
-	mes "After that terrible incident wiped out the entire Morocc, Rune-Midgarts Kingdom has gathered us volunteers to help restorations.";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "As important as it seems, everyone's being careful but there are always some that really don't realize the situation, don't you think?";
-	close;
-}
+//morocc,202,244,0	script	Volunteer - Morocc#01	745,{
+//	mes "[Morocc Volunteer]";
+//	mes "After that terrible incident wiped out the entire Morocc, Rune-Midgarts Kingdom has gathered us volunteers to help restorations.";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "As important as it seems, everyone's being careful but there are always some that really don't realize the situation, don't you think?";
+//	close;
+//}
 
-morocc,88,133,3	script	Volunteer - Morocc#02	748,{
-	mes "[Morocc Volunteer]";
-	mes "We're... We're flooded with work...";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "This work's like never-ending, no matter how hard we try!!!";
-	mes "People of Rune-Midgarts!! Please lend us a helping hand!!";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "Haw.... Whew... Ugh...";
-	close;
-}
+//morocc,88,133,3	script	Volunteer - Morocc#02	748,{
+//	mes "[Morocc Volunteer]";
+//	mes "We're... We're flooded with work...";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "This work's like never-ending, no matter how hard we try!!!";
+//	mes "People of Rune-Midgarts!! Please lend us a helping hand!!";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "Haw.... Whew... Ugh...";
+//	close;
+//}
 
-morocc,202,110,0	script	Volunteer - Morocc#03	730,{
-	mes "[Morocc Volunteer]";
-	mes "We're still unable to estimate the overall damage.";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "Adventurers' Union and Prontera Kingdom are putting their efforts on restorations as well as restraints of the original cause of the disaster.";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "Unless we settle the original cause, the damage will even spread out of Morocc. The only thing left is to get worse.";
-	close;
-}
+//morocc,202,110,0	script	Volunteer - Morocc#03	730,{
+//	mes "[Morocc Volunteer]";
+//	mes "We're still unable to estimate the overall damage.";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "Adventurers' Union and Prontera Kingdom are putting their efforts on restorations as well as restraints of the original cause of the disaster.";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "Unless we settle the original cause, the damage will even spread out of Morocc. The only thing left is to get worse.";
+//	close;
+//}
 
-morocc,268,287,3	script	Volunteer - Morocc#04	727,{
-	mes "[Morocc Volunteer]";
-	mes "As bad as it seems, we can't even ask for more support.";
-	mes "This sure must be the worst thing ever happened in Rune-Midgarts' history.";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "I wish I knew how bad the damage is, but we can't even estimate it. It's like shovelling sand against the tide..";
-	close;
-}
-
-morocc,37,287,0	script	Volunteer - Morocc#05	79,{
-	mes "[Morocc Volunteer]";
-	mes "The town's all shattered, but the real problem is the towners.";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "It's a real pity to see those victims of the destroyed town, but the witnesses of the disaster are so much shocked. They're simply not normal now.";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "People are scared to death, but those are fortunate at least.. cause.. many others got mentally ill and stuff..";
-	close;
-}
-
-morocc,223,102,0	script	Volunteer - Morocc#06::MocVolunteer	741,{
-	mes "[Morocc Volunteer]";
-	mes "Ugh.. It's kinda spooky, here.. Even this dry wind of the desert seems to have a dark nature.";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "Ooh!! Something... I can feel something! The dark and gloomy air flowing around this town is actually giving me a musical motiff!";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "Right, I think you should hear it! The title is.. 'The Rhapsody of Morocc Satan's Rebirth'!!";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "When finally wake up, it's just the same darkness";
-	mes "Failed to be reborn at the same place,";
-	mes "Gotta try harder and harder, never ever give up,";
-	mes "But even after hundreds and thousands of trying,";
-	mes "The great Satan of Morocc can't revive~";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "My stupid button men are useless,";
-	mes "Against those adventurers,";
-	mes "This time I must revive,";
-	mes "Cracking the time and the space,";
-	mes "Will be saved for the last~~~";
-	next;
-	mes "[Ringing Voice]";
-	mes "Be quiet! Can't you see what's going on?!";
-	specialeffect EF_HIT2,AREA,"Volunteer - Morocc#06";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "Heyyy, you're being too harsh, Señorita. Your fist may be as fragile as you are, but it sure can hurt somebody.";
-	next;
-	mes "[Ringing Voice]";
-	mes "Anyways, isn't that a crib? I think I heard something like that before..";
-	next;
-	mes "[Morocc Volunteer]";
-	mes "No, No way!? It,, sure is not!";
-	close;
-}
-
-morocc,226,102,4	duplicate(MocVolunteer)	Volunteer - Morocc#07	726
-
-moc_ruins,123,154,0	script	Young Man#moc01	99,{
-	mes "[Young Man]";
-	mes "The town's completely destroyed, but that giant triangular structure hasn't been harmed at all. Maybe it's protected by some kinda special power.";
-	next;
-	mes "[Young Man]";
-	mes "You know...Those giant, triangular buildings at the NorthWest corner of Morocc known are known to us as Pyramids...";
-	next;
-	mes "[Young Man]";
-	mes "Those things have been around here for thousands and thousands of years. No one knows when and why they were built, or who built them.";
-	next;
-	mes "[Young Man]";
-	mes "All we know is that tons of monsters live inside those weird buildings. You might wanna stay away from those really dangerous places.";
-	next;
-	mes "[Young Man]";
-	mes "Those monsters in the Pyramid would be very, very sensitive to sweet flash smell of people....";
-	close;
-}
+//morocc,268,287,3	script	Volunteer - Morocc#04	727,{
+//	mes "[Morocc Volunteer]";
+//	mes "As bad as it seems, we can't even ask for more support.";
+//	mes "This sure must be the worst thing ever happened in Rune-Midgarts' history.";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "I wish I knew how bad the damage is, but we can't even estimate it. It's like shovelling sand against the tide..";
+//	close;
+//}
+//
+//morocc,37,287,0	script	Volunteer - Morocc#05	79,{
+//	mes "[Morocc Volunteer]";
+//	mes "The town's all shattered, but the real problem is the towners.";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "It's a real pity to see those victims of the destroyed town, but the witnesses of the disaster are so much shocked. They're simply not normal now.";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "People are scared to death, but those are fortunate at least.. cause.. many others got mentally ill and stuff..";
+//	close;
+//}
+//
+//morocc,223,102,0	script	Volunteer - Morocc#06::MocVolunteer	741,{
+//	mes "[Morocc Volunteer]";
+//	mes "Ugh.. It's kinda spooky, here.. Even this dry wind of the desert seems to have a dark nature.";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "Ooh!! Something... I can feel something! The dark and gloomy air flowing around this town is actually giving me a musical motiff!";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "Right, I think you should hear it! The title is.. 'The Rhapsody of Morocc Satan's Rebirth'!!";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "When finally wake up, it's just the same darkness";
+//	mes "Failed to be reborn at the same place,";
+//	mes "Gotta try harder and harder, never ever give up,";
+//	mes "But even after hundreds and thousands of trying,";
+//	mes "The great Satan of Morocc can't revive~";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "My stupid button men are useless,";
+//	mes "Against those adventurers,";
+//	mes "This time I must revive,";
+//	mes "Cracking the time and the space,";
+//	mes "Will be saved for the last~~~";
+//	next;
+//	mes "[Ringing Voice]";
+//	mes "Be quiet! Can't you see what's going on?!";
+//	specialeffect EF_HIT2,AREA,"Volunteer - Morocc#06";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "Heyyy, you're being too harsh, Señorita. Your fist may be as fragile as you are, but it sure can hurt somebody.";
+//	next;
+//	mes "[Ringing Voice]";
+//	mes "Anyways, isn't that a crib? I think I heard something like that before..";
+//	next;
+//	mes "[Morocc Volunteer]";
+//	mes "No, No way!? It,, sure is not!";
+//	close;
+//}
+//
+//morocc,226,102,4	duplicate(MocVolunteer)	Volunteer - Morocc#07	726
+//
+//moc_ruins,123,154,0	script	Young Man#moc01	99,{
+//	mes "[Young Man]";
+//	mes "The town's completely destroyed, but that giant triangular structure hasn't been harmed at all. Maybe it's protected by some kinda special power.";
+//	next;
+//	mes "[Young Man]";
+//	mes "You know...Those giant, triangular buildings at the NorthWest corner of Morocc known are known to us as Pyramids...";
+//	next;
+//	mes "[Young Man]";
+//	mes "Those things have been around here for thousands and thousands of years. No one knows when and why they were built, or who built them.";
+//	next;
+//	mes "[Young Man]";
+//	mes "All we know is that tons of monsters live inside those weird buildings. You might wanna stay away from those really dangerous places.";
+//	next;
+//	mes "[Young Man]";
+//	mes "Those monsters in the Pyramid would be very, very sensitive to sweet flash smell of people....";
+//	close;
+//}
 
 moc_ruins,128,153,0	script	Grampa#moc	61,{
 	mes "[Old Scholar]";
